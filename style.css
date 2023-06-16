@@ -1,0 +1,108 @@
+.mother{
+    background-color: darkgray;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    border-radius: 300px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+.block1{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 95px;
+    right: 10px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.roki{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+   
+}
+.block2{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 95px;
+    left: 10px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.roki2{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+   
+}
+
+.toro1{
+    background-color: darkgray;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border: 1px solid black;
+    right: 365px;
+   bottom: 450px;
+   border-radius: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.uho1{
+    background-color: cadetblue;
+    width: 270px;
+    height: 270px;
+    border-radius: 100%;
+}
+.toro2{
+    background-color: darkgray;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border: 1px solid black;
+    left: 365px;
+   bottom: 450px;
+   border-radius: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.uho2{
+    background-color: cadetblue;
+    width: 270px;
+    height: 270px;
+    border-radius: 100%;
+}
+.block3{
+    background-color: brown;
+    width: 100px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+
+}
+.chub1{
+    background-color: darkgray;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 650px;
+    top: 60px;
+    transform: rotate(45deg);
+    
+}
